@@ -1,6 +1,6 @@
 # Adição de pacote essêncial para o funcionamento do código.
 
-Para a funcionalidade total desse código, adicione o arquivo &*"bcim_2016_21_11_2018.gpkg"* que se encontra presente no repositório
+Para a funcionalidade total desse código, adicione o arquivo *"bcim_2016_21_11_2018.gpkg"* que se encontra presente no repositório
 
 > https://github.com/Gaba034/desafio_manchester
 
