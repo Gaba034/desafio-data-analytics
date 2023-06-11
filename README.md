@@ -220,6 +220,7 @@ Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as ve
 
 ---
 * Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama. A mesma tabela usada anteriormente pode servir para a vizualização.
+
 |Index |Faixa Etária|PRODUTO|Count|
 |---|---|---|---|
 |0|20-29|JARDINAGEM|2|
