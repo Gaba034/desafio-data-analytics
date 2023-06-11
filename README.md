@@ -36,7 +36,7 @@ Espero que este relatório encontre você bem. Como Analista de Dados, tive o pr
 # Resumo Executivo:
 A seguir, apresentarei um resumo com as informações mais relevantes, seguido por uma análise mais detalhada.
 
-* A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
+## A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
 
 | Index | Estado | Contagem |
 |---|---|---|
@@ -54,7 +54,7 @@ Nesse caso, a coluna de 'Contagem' representa o número de clientes, logo, a tab
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
 
 ---
-* A quantidade de produtos vendidos para a região sul é superior às outras regiões, e os estados que mais compraram em cada região foram:
+## A quantidade de produtos vendidos para a região sul é superior às outras regiões, e os estados que mais compraram em cada região foram:
 * * Santa Catarina, com 2241 compras.
 * * Paraíba, com 2046 compras.
 * * São Paulo, com 1502 compras.
@@ -75,7 +75,7 @@ Tendo isso em mente, esse gráfico permite ver a densisade de compras por regiã
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesQuantState.png?raw=true)
 
 ---
-* A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras, sendo assim é possível extrair quais estados fazem um número de compras maior.
+## A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras, sendo assim é possível extrair quais estados fazem um número de compras maior.
 O gráfico abaixo representa os dados:
 
 | Index | ESTADO | Soma_QUANTIDADE_VENDIDA |
@@ -92,7 +92,7 @@ O gráfico abaixo representa os dados:
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesState.png?raw=true)
 
 ---
-* A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente tranfosrmei nesta tabela.
+## A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente tranfosrmei nesta tabela.
 
 |Index |Faixa Etária|PRODUTO|Count|
 |---|---|---|---|
@@ -127,7 +127,7 @@ O gráfico abaixo representa os dados:
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsAge.png?raw=true)
 
 ---
-* O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir, que foi feito usando os dados fornecidos:
+## O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir, que foi feito usando os dados fornecidos:
 Além do gráfico, a tabela a seguir ajuda vizualizar todas as vendas por produto.
 
 |Index|Produto|Vendas|
@@ -142,7 +142,7 @@ Além do gráfico, a tabela a seguir ajuda vizualizar todas as vendas por produt
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
 
 ---
-* Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média. Usando o gráfico abaixo como base:
+## Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média. Usando o gráfico abaixo como base:
 Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as vendas por mês.
 
 |Index|Mes|Vendas|
@@ -161,7 +161,7 @@ Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as ve
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/MonthSales.png?raw=true)
 
 ---
-* Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
+## Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
 ### Tabela com os dados de vendas pela data da região sul:
 |Index|DATA|QUANTIDADE_VENDIDA|
 |---|---|---|
@@ -219,7 +219,7 @@ Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as ve
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendNortheast.png?raw=true)
 
 ---
-* Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama. A mesma tabela usada anteriormente pode servir para a vizualização.
+## Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama. A mesma tabela usada anteriormente pode servir para a vizualização.
 
 |Index |Faixa Etária|PRODUTO|Count|
 |---|---|---|---|
