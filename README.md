@@ -45,11 +45,13 @@ Paraíba, com 2046 compras.
 São Paulo, com 1502 compras.
 A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras.
 
-O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos.
-
+O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir:
+---
+![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
+---
 Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média.
 
 Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
 
 Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama.
-![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
+
