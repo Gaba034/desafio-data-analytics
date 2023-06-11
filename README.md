@@ -37,6 +37,15 @@ Espero que este relatório encontre você bem. Como Analista de Dados, tive o pr
 A seguir, apresentarei um resumo com as informações mais relevantes, seguido por uma análise mais detalhada.
 
 * A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
+
+| Index | Estado | Contagem |
+| 0 | BA | 1 |
+| 1 | PB | 2 |
+| 2 | PR | 1 |
+| 3 | RJ | 1 |
+| 4 | RS | 1 |
+| 5 | SC | 2 |
+| 6 | SP | 1 |
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
@@ -46,14 +55,14 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 * * Santa Catarina, com 2241 compras.
 * * Paraíba, com 2046 compras.
 * * São Paulo, com 1502 compras.
-
+Tendo isso em mente, esse gráfico permite ver a densisade de compras por região nesse período de nove meses.
 > Cada região apresenta um aspecto climático diferente, podendo impactar fortemente nas vendas. 
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesQuantState.png?raw=true)
 
 ---
-* A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras.
+* A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras, sendo assim é possível extrair quais estados fazem um número de compras maior.
 O gráfico abaixo representa os dados:
 ---
 
@@ -66,7 +75,7 @@ O gráfico abaixo representa os dados:
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsAge.png?raw=true)
 
 ---
-* O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir:
+* O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir, que foi feito usando os dados fornecidos:
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
