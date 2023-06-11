@@ -48,7 +48,7 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 | 5 | SC | 2 |
 | 6 | SP | 1 |
 
- Nesse caso, a coluna de 'Contagem' representa o número de clientes, logo, a tabela mostra a quantidade de clientes por Estado.
+Nesse caso, a coluna de 'Contagem' representa o número de clientes, logo, a tabela mostra a quantidade de clientes por Estado.
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
@@ -60,6 +60,7 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 * * São Paulo, com 1502 compras.
 Tendo isso em mente, esse gráfico permite ver a densisade de compras por região nesse período de nove meses.
 > Cada região apresenta um aspecto climático diferente, podendo impactar fortemente nas vendas.
+
 | Index | ESTADO | Soma_QUANTIDADE_VENDIDA |
 |---|---|---|
 | 0 | BA | 604 |
@@ -76,6 +77,7 @@ Tendo isso em mente, esse gráfico permite ver a densisade de compras por regiã
 ---
 * A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras, sendo assim é possível extrair quais estados fazem um número de compras maior.
 O gráfico abaixo representa os dados:
+
 | Index | ESTADO | Soma_QUANTIDADE_VENDIDA |
 |---|---|---|
 | 0 | PB | 8 |
@@ -91,8 +93,9 @@ O gráfico abaixo representa os dados:
 
 ---
 * A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente tranfosrmei nesta tabela.
-  |Index |Faixa Etária|PRODUTO|Count|
-  |---|---|---|---|
+
+|Index |Faixa Etária|PRODUTO|Count|
+|---|---|---|---|
 |0|20-29|JARDINAGEM|2|
 |1|20-29|LIMPEZA|2|
 |2|20-29|MANGUEIRAS|2|
@@ -182,13 +185,13 @@ Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as ve
 ### Tabela com os dados de vendas pela data da região sudeste:
 |Index|DATA|QUANTIDADE_VENDIDA|
 |---|---|---|
-|0 |2021-02-24|                 302|
-|1 |2021-03-06|                 117|
-|2 |2021-03-16|                 344|
-|3 |2021-04-15|                 292|
-|4 |2021-04-25|                 447|
-|5 |2021-05-15|                 294|
-|6 |2021-08-23|                 918|
+|0 |2021-02-24|302|
+|1 |2021-03-06|117|
+|2 |2021-03-16|344|
+|3 |2021-04-15|292|
+|4 |2021-04-25|447|
+|5 |2021-05-15|294|
+|6 |2021-08-23|918|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendSoutheast.png?raw=true)
@@ -216,7 +219,7 @@ Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as ve
 ---
 * Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama. A mesma tabela usada anteriormente pode servir para a vizualização.
 |Index |Faixa Etária|PRODUTO|Count|
-  |---|---|---|---|
+|---|---|---|---|
 |0|20-29|JARDINAGEM|2|
 |1|20-29|LIMPEZA|2|
 |2|20-29|MANGUEIRAS|2|
