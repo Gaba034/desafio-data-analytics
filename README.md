@@ -48,6 +48,7 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 | 5 | SC | 2 |
 | 6 | SP | 1 |
 
+ Nesse caso, a coluna de 'Contagem' representa o número de clientes, logo, a tabela mostra a quantidade de clientes por Estado.
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
@@ -58,7 +59,16 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 * * Paraíba, com 2046 compras.
 * * São Paulo, com 1502 compras.
 Tendo isso em mente, esse gráfico permite ver a densisade de compras por região nesse período de nove meses.
-> Cada região apresenta um aspecto climático diferente, podendo impactar fortemente nas vendas. 
+> Cada região apresenta um aspecto climático diferente, podendo impactar fortemente nas vendas.
+| Index | ESTADO | Soma_QUANTIDADE_VENDIDA |
+|---|---|---|
+| 0 | BA | 604 |
+| 1 | PB | 2046 |
+| 2 | PR | 855 |
+| 3 | RJ | 1212 |
+| 4 | RS | 1258 |
+| 5 | SC | 2241 |
+| 6 | SP | 1502 | 
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesQuantState.png?raw=true)
@@ -66,46 +76,173 @@ Tendo isso em mente, esse gráfico permite ver a densisade de compras por regiã
 ---
 * A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras, sendo assim é possível extrair quais estados fazem um número de compras maior.
 O gráfico abaixo representa os dados:
+| Index | ESTADO | Soma_QUANTIDADE_VENDIDA |
+|---|---|---|
+| 0 | PB | 8 |
+| 1 | SC | 7 |
+| 2 | SP | 5 |
+| 3 | BA | 5 |
+| 4 | RS | 5 |
+| 5 | RJ | 4 |
+| 6 | PR | 2 | 
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesState.png?raw=true)
 
 ---
-* A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas.
+* A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente tranfosrmei nesta tabela.
+  |Index |Faixa Etária|PRODUTO|Count|
+  |---|---|---|---|
+|0|20-29|JARDINAGEM|2|
+|1|20-29|LIMPEZA|2|
+|2|20-29|MANGUEIRAS|2|
+|3|20-29|MAQUINA DE CORTAR GRAMA|2|
+|4|20-29|UTILIDADES DOMÉSTICAS|2|
+|5|30-39|JARDINAGEM|0|
+|6|30-39|LIMPEZA|0|
+|7|30-39|MANGUEIRAS|0|
+|8|30-39|MAQUINA DE CORTAR GRAMA|0|
+|9|30-39|UTILIDADES DOMÉSTICAS|0|
+|10|40-49|JARDINAGEM|1|
+|11|40-49|LIMPEZA|4|
+|12|40-49|MANGUEIRAS|4|
+|13|40-49|MAQUINA DE CORTAR GRAMA|4|
+|14|40-49|UTILIDADES DOMÉSTICAS|4|
+|15|50-59|JARDINAGEM|2|
+|16|50-59|LIMPEZA|1|
+|17|50-59|MANGUEIRAS|0|
+|18|50-59|MAQUINA DE CORTAR GRAMA|0|
+|19|50-59|UTILIDADES DOMÉSTICAS|1|
+|20|60-69|JARDINAGEM|1|
+|21|60-69|LIMPEZA|1|
+|22|60-69|MANGUEIRAS|1|
+|23|60-69|MAQUINA DE CORTAR GRAMA|1|
+|24|60-69|UTILIDADES DOMÉSTICAS|1|
+
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsAge.png?raw=true)
 
 ---
 * O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir, que foi feito usando os dados fornecidos:
+Além do gráfico, a tabela a seguir ajuda vizualizar todas as vendas por produto.
+|Index|Produto|Vendas|
+|---|---|---|
+|0|MAQUINA DE CORTAR GRAMA|1850|
+|1|MANGUEIRAS|1844|
+|2|UTILIDADES DOMÉSTICAS |2372|
+|3|LIMPEZA|2119|
+|4|JARDINAGEM|1533|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
 
 ---
 * Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média. Usando o gráfico abaixo como base:
+Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as vendas por mês.
+|Index|Mes|Vendas|
+|---|---|---|
+|0|Janeiro|1742|
+|1|Fevereiro|1201|
+|2|Março|1169|
+|3|Abril|1252|
+|4|Maio|1100|
+|5|Junho|51|
+|6|Julho|396|
+|7|Agosto|2000|
+|8|Setembro|807|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/MonthSales.png?raw=true)
 
 ---
 * Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
+### Tabela com os dados de vendas pela data da região sul:
+|Index|DATA|QUANTIDADE_VENDIDA|
+|---|---|---|
+|0|2021-01-05|64|
+|1|2021-01-15|488|
+|2|2021-01-25|420|
+|3|2021-02-04|259|
+|4|2021-02-14|387|
+|5|2021-03-06|69|
+|6|2021-03-16|293|
+|7|2021-03-26|89|
+|8|2021-07-04|396|
+|9|2021-08-03|227|
+|10|2021-08-13|446|
+|11|2021-08-23|409|
+|12|2021-09-02|482|
+|13|2021-09-12|325|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendSouth.png?raw=true)
 
 ---
+### Tabela com os dados de vendas pela data da região sudeste:
+|Index|DATA|QUANTIDADE_VENDIDA|
+|---|---|---|
+|0 |2021-02-24|                 302|
+|1 |2021-03-06|                 117|
+|2 |2021-03-16|                 344|
+|3 |2021-04-15|                 292|
+|4 |2021-04-25|                 447|
+|5 |2021-05-15|                 294|
+|6 |2021-08-23|                 918|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendSoutheast.png?raw=true)
 
 ---
+### Tabela com os dados de vendas pela data da região nordeste:
+|Index|DATA|QUANTIDADE_VENDIDA|
+|---|---|---|
+|0|2021-01-05|257|
+|1|2021-01-15|51|
+|2|2021-01-25|462|
+|3|2021-02-04|253|
+|4|2021-03-16|257|
+|5|2021-04-15|51|
+|6|2021-04-25|462|
+|7|2021-05-05|295|
+|8|2021-05-15|403|
+|9|2021-05-25|108|
+|10|2021-06-14|26|
+|11 |2021-06-24|25|
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendNortheast.png?raw=true)
 
 ---
-* Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama.
+* Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama. A mesma tabela usada anteriormente pode servir para a vizualização.
+|Index |Faixa Etária|PRODUTO|Count|
+  |---|---|---|---|
+|0|20-29|JARDINAGEM|2|
+|1|20-29|LIMPEZA|2|
+|2|20-29|MANGUEIRAS|2|
+|3|20-29|MAQUINA DE CORTAR GRAMA|2|
+|4|20-29|UTILIDADES DOMÉSTICAS|2|
+|5|30-39|JARDINAGEM|0|
+|6|30-39|LIMPEZA|0|
+|7|30-39|MANGUEIRAS|0|
+|8|30-39|MAQUINA DE CORTAR GRAMA|0|
+|9|30-39|UTILIDADES DOMÉSTICAS|0|
+|10|40-49|JARDINAGEM|1|
+|11|40-49|LIMPEZA|4|
+|12|40-49|MANGUEIRAS|4|
+|13|40-49|MAQUINA DE CORTAR GRAMA|4|
+|14|40-49|UTILIDADES DOMÉSTICAS|4|
+|15|50-59|JARDINAGEM|2|
+|16|50-59|LIMPEZA|1|
+|17|50-59|MANGUEIRAS|0|
+|18|50-59|MAQUINA DE CORTAR GRAMA|0|
+|19|50-59|UTILIDADES DOMÉSTICAS|1|
+|20|60-69|JARDINAGEM|1|
+|21|60-69|LIMPEZA|1|
+|22|60-69|MANGUEIRAS|1|
+|23|60-69|MAQUINA DE CORTAR GRAMA|1|
+|24|60-69|UTILIDADES DOMÉSTICAS|1|
+
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/Dispersão.png?raw=true)
