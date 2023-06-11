@@ -41,18 +41,13 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 | Index | Estado | Contagem |
 |---|---|---|
 | 0 | BA | 1 |
-|---|---|---|
 | 1 | PB | 2 |
-|---|---|---|
 | 2 | PR | 1 |
-|---|---|---|
 | 3 | RJ | 1 |
-|---|---|---|
 | 4 | RS | 1 |
-|---|---|---|
 | 5 | SC | 2 |
-|---|---|---|
 | 6 | SP | 1 |
+
 ---
 
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
