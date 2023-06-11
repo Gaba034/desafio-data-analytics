@@ -129,6 +129,7 @@ O gráfico abaixo representa os dados:
 ---
 * O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir, que foi feito usando os dados fornecidos:
 Além do gráfico, a tabela a seguir ajuda vizualizar todas as vendas por produto.
+
 |Index|Produto|Vendas|
 |---|---|---|
 |0|MAQUINA DE CORTAR GRAMA|1850|
@@ -143,6 +144,7 @@ Além do gráfico, a tabela a seguir ajuda vizualizar todas as vendas por produt
 ---
 * Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média. Usando o gráfico abaixo como base:
 Para auxiliar na legibilidade do gráfico, aqui está uma tabela com todas as vendas por mês.
+
 |Index|Mes|Vendas|
 |---|---|---|
 |0|Janeiro|1742|
