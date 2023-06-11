@@ -42,7 +42,7 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsState.png?raw=true)
 
 ---
-* A quantidade de produtos vendidos para a região sul é superior às outras regiões, e os estados que mais compraram nesta região foram:
+* A quantidade de produtos vendidos para a região sul é superior às outras regiões, e os estados que mais compraram em cada região foram:
 * * Santa Catarina, com 2241 compras.
 * * Paraíba, com 2046 compras.
 * * São Paulo, com 1502 compras.
