@@ -33,7 +33,7 @@ Assunto: Relatório de Análise de Dados
 
 Espero que este relatório encontre você bem. Como Analista de Dados, tive o prazer de realizar uma análise completa dos dados da empresa nos últimos meses. Com base nas informações coletadas, apresento abaixo os principais insights e recomendações para ajudar na tomada de decisões informadas.
 
-Resumo Executivo:
+# Resumo Executivo:
 A seguir, apresentarei um resumo com as informações mais relevantes, seguido por uma análise mais detalhada.
 
 * A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
@@ -84,7 +84,7 @@ O gráfico abaixo representa os dados:
 ---
 ---
 
-![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendNorteast.png?raw=true)
+![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/TrendNortheast.png?raw=true)
 
 ---
 * Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama.
