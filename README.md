@@ -34,27 +34,21 @@ Assunto: Relatório de Análise de Dados
 Espero que este relatório encontre você bem. Como Analista de Dados, tive o prazer de realizar uma análise completa dos dados da empresa nos últimos meses. Com base nas informações coletadas, apresento abaixo os principais insights e recomendações para ajudar na tomada de decisões informadas.
 
 Resumo Executivo:
-Neste resumo, destaco os pontos mais relevantes da análise de dados.
-A empresa experimentou um crescimento consistente de vendas no último trimestre, com um aumento de 15% em comparação com o mesmo período do ano anterior.
-A análise de segmentação de clientes revelou que o grupo de clientes de maior valor representa 30% do faturamento total da empresa, indicando a importância de estratégias de retenção e upselling para esse segmento.
-Identificamos uma oportunidade de expansão de mercado em uma região específica, onde a demanda pelos produtos da empresa está crescendo rapidamente.
+A seguir, apresentarei um resumo com as informações mais relevantes, seguido por uma análise mais detalhada.
 
-Análise de Vendas:
-Aqui estão os principais insights relacionados às vendas da empresa.
-O crescimento das vendas foi impulsionado principalmente pelo aumento do ticket médio de compra, que aumentou em 10% no último trimestre.
-Observou-se que determinados produtos têm uma demanda sazonal mais pronunciada, sugerindo a necessidade de um planejamento mais eficiente da produção e estoque.
-A análise de canais de vendas mostrou que as vendas online aumentaram consideravelmente, representando agora 40% do total de vendas. Isso indica a importância de uma estratégia de comércio eletrônico bem desenvolvida.
+A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
 
-Análise de Marketing:
-Aqui estão os principais insights relacionados às atividades de marketing da empresa.
-As campanhas de marketing digital tiveram um bom desempenho, com um aumento de 20% no tráfego do site e um aumento de 12% nas conversões.
-A análise das mídias sociais revelou que o público-alvo da empresa está altamente engajado nas plataformas Facebook e Instagram, sugerindo uma oportunidade de direcionar esforços de marketing nessas plataformas.
-A segmentação por demografia mostrou que os clientes mais jovens estão mais propensos a adquirir os produtos da empresa, o que pode informar as estratégias de marketing para esse público.
+A quantidade de produtos vendidos para a região sul é superior às outras regiões, e os estados que mais compraram nesta região foram:
 
-Recomendações:
-Com base na análise dos dados, apresento as seguintes recomendações:
-Investir em estratégias de retenção de clientes para o grupo de clientes de maior valor, como programas de fidelidade e atendimento personalizado.
-Expandir a presença geográfica da empresa na região identificada como uma oportunidade de mercado em crescimento.
-Reforçar a presença online e investir em melhorias na experiência do usuário para impulsionar as vendas por meio do comércio eletrônico.
-Alocar recursos adicionais para as campanhas de marketing digital, com foco nas plataformas Facebook e Instagram, para maximizar o engajamento do público-alvo.
-Adaptar as estratégias de marketing para atrair e envolver o
+Santa Catarina, com 2241 compras.
+Paraíba, com 2046 compras.
+São Paulo, com 1502 compras.
+A região sul apresenta a maior densidade de compras, com um total de 15 compras de volumes variados, seguida, em ordem decrescente, pela região nordeste com 13 compras e a região sudeste com 9 compras.
+
+O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos.
+
+Durante o primeiro trimestre, a empresa experimentou um período de vendas estável, com variações acima da média. No segundo trimestre, houve uma queda nas vendas, com apenas um mês acima da média. Já no terceiro trimestre, dois meses ficaram abaixo da média e um mês apresentou vendas muito acima da média.
+
+Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
+
+Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama.
