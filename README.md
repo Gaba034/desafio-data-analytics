@@ -60,6 +60,12 @@ O gráfico abaixo representa os dados:
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesState.png?raw=true)
 
 ---
+* A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas.
+---
+
+![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ClientsAge.png?raw=true)
+
+---
 * O produto mais vendido é o de utilidades domésticas, enquanto os produtos de jardinagem são os menos vendidos. Como pode se perceber no gráfico a seguir:
 ---
 
