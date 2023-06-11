@@ -52,4 +52,4 @@ Durante o primeiro trimestre, a empresa experimentou um período de vendas está
 Ao longo desses nove meses, observa-se uma tendência de vendas positiva na região sul, com uma boa aceleração. A região sudeste também apresenta uma tendência positiva, porém com uma aceleração menor do que a do sul. Por outro lado, o nordeste apresenta uma tendência negativa, porém com muitas oscilações, tornando difícil prever um padrão.
 
 Em relação à faixa etária e aos produtos, foi observado que algumas faixas etárias não demonstraram interesse em determinados tipos de produtos. Por exemplo, a faixa etária de 50-59 anos não adquiriu produtos como mangueiras e máquinas de cortar grama.
-![alt text](graphs\TrendSoutheast.png)
+![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/ProductSales.png?raw=true)
