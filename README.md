@@ -39,19 +39,19 @@ A seguir, apresentarei um resumo com as informações mais relevantes, seguido p
 * A empresa possui sua clientela concentrada principalmente na região sul, seguida pela região nordeste e sudeste, devido à proximidade entre as regiões sul e sudeste, é possível afirmar que a densidade de clientes está direcionada para o sul do país. No entanto, é importante ressaltar que ainda há mais clientes no nordeste do que no sudeste.
 
 | Index | Estado | Contagem |
-||||
+|---|---|---|
 | 0 | BA | 1 |
-||||
+|---|---|---|
 | 1 | PB | 2 |
-||||
+|---|---|---|
 | 2 | PR | 1 |
-||||
+|---|---|---|
 | 3 | RJ | 1 |
-||||
+|---|---|---|
 | 4 | RS | 1 |
-||||
+|---|---|---|
 | 5 | SC | 2 |
-||||
+|---|---|---|
 | 6 | SP | 1 |
 ---
 
