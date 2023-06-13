@@ -92,7 +92,7 @@ O gráfico abaixo representa os dados:
 ![alt text](https://github.com/Gaba034/desafio-data-analytics/blob/main/graphs/SalesState.png?raw=true)
 
 ---
-## A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente tranfosrmei nesta tabela.
+## A clientela mais forte da empresa é mais forte da faixa etária de 43-47 anos, além de possuir clientes entre as faixas de 20-26 anos e 58-61 anos também. Cheguei nesta conclusão me embasando nesse gráfico gerado com as informações fornecidas pelos dados, que posteriormente transformei nesta tabela.
 
 |Index |Faixa Etária|PRODUTO|Count|
 |---|---|---|---|
